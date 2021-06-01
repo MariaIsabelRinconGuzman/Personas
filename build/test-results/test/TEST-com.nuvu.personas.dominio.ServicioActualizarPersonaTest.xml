@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nuvu.personas.dominio.ServicioActualizarPersonaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-01T04:08:07" hostname="MARIAP-RINCON" time="0.973">
+  <properties/>
+  <testcase name="actualizarExitoso()" classname="com.nuvu.personas.dominio.ServicioActualizarPersonaTest" time="0.961"/>
+  <testcase name="actualizarFallido()" classname="com.nuvu.personas.dominio.ServicioActualizarPersonaTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

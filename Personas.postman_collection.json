@@ -1,0 +1,169 @@
+{
+	"id": "e71c3f56-ee80-128e-c372-3579e1626255",
+	"name": "Personas",
+	"description": "",
+	"order": [
+		"268d9a0f-2337-64e2-baa6-534367a3f900",
+		"2b67fbc6-6ee6-4318-7fc2-a7ae03014951",
+		"5bc2178b-42d2-5ad0-2651-f0bf024231de",
+		"0a80086c-c351-c25b-1f9e-94779eee8b53"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1622521915462,
+	"owner": "3876331",
+	"public": false,
+	"requests": [
+		{
+			"id": "0a80086c-c351-c25b-1f9e-94779eee8b53",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://personas-env.eba-5v8mkrzj.us-east-2.elasticbeanstalk.com/persona",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1622522342212,
+			"name": "Actualizar tarjeta de crédito",
+			"description": "",
+			"collectionId": "e71c3f56-ee80-128e-c372-3579e1626255",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"identificacion\": 1036,\r\n\t\"tarjetaCredito\": \"6546554355466\"\r\n}"
+		},
+		{
+			"id": "268d9a0f-2337-64e2-baa6-534367a3f900",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://personas-env.eba-5v8mkrzj.us-east-2.elasticbeanstalk.com/sesion",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "usuario",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contrasena",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1622522034253,
+			"name": "Obtener token de acceso",
+			"description": "",
+			"collectionId": "e71c3f56-ee80-128e-c372-3579e1626255",
+			"responses": []
+		},
+		{
+			"id": "2b67fbc6-6ee6-4318-7fc2-a7ae03014951",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA\nidentificacion: 1036\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "identificacion",
+					"value": "1036",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://personas-env.eba-5v8mkrzj.us-east-2.elasticbeanstalk.com/persona",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e71c3f56-ee80-128e-c372-3579e1626255",
+			"data": null,
+			"dataMode": "params",
+			"name": "Obtener persona por identificación",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1622522029943,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5bc2178b-42d2-5ad0-2651-f0bf024231de",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYWRtaW4iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIyNTIxOTkyLCJleHAiOjE2MjI1MjI1OTJ9.wHUKpd4VE2HELei6F50PQEVbt-K-rChXifi3VYgbKe9pGNEbgt4NX_IOB_NfJ1H5FrBqJb0CB7WSBt8KCXGtoA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://personas-env.eba-5v8mkrzj.us-east-2.elasticbeanstalk.com/persona",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e71c3f56-ee80-128e-c372-3579e1626255",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Crear persona",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1622522177942,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"identificacion\": 1036,\r\n\t\"tarjetaCredito\": \"65465466\"\r\n}"
+		}
+	]
+}
